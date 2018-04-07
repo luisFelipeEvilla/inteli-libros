@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Libreria Genius</title>
+    <link rel="stylesheet" href="../css/biblioteca.css">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,600,700" rel="stylesheet">
+    <link rel="shortcut icon" href="../imagenes/icon.png">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/social.css">
+  </head>
+  <body>
+    <header class="header ">
+      <a href="index.html" class="logotipo">
+      <figure class="">
+        <img src="../imagenes/icon.png" alt="logotipo">
+      </figure>
+    </a>
+    <div class="menu">
+
+      <nav class="">
+        <ul>
+          <li>
+            <a href="../index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./biblioteca.html" >Biblioteca</a>
+          </li>
+          <li>
+            <a href="../index.html#.secondItems">Destacados</a>
+          </li>
+        </ul>
+      </nav>
+      <a href="#" class="button logIn">Iniciar Sesión</a>
+    </div>
+    </header>
+
+        <div class="social">
+    		<ul>
+    			<li><a href="https://www.facebook.com/Evilla888" target="_blank" class="icon-facebook"></a></li>
+    			<li><a href="http://www.twitter.com/falconmasters" target="_blank" class="icon-twitter"></a></li>
+    			<li><a href="http://www.googleplus.com/falconmasters" target="_blank" class="icon-youtube"></a></li>
+    			<li><a href="http://www.pinterest.com/falconmasters" target="_blank" class="icon-instagram"></a></li>
+    			<li><a href="https://github.com/luisFelipeEvilla" target="_blank" class="icon-github"></a></li>
+    		</ul>
+    	</div>
+
+    <section id="portada" class="portada"> <!-- portada -->
+      <div class="contenedor">
+      <h1>Libreria Genius</h1>
+      <!-- <button class="button">conoce màs </button> -->
+    </div>
+  </section>
+      <section id="libros" class="libros contenedor">
+        <!-- <h2>Nuestros libros</h2> -->
+        <article class="libro-a">
+          <div class="contenedor-libro-a">
+            <a href="#"><h3 class="nombreLibro">Matemáticas para Iñaki</h3></a>
+          <figure>
+            <img src="../imagenes/libros/matematicasParaIñaki.jpg" alt="libro1">
+          </figure>
+          <div class="descripción-a">
+            <p>Quien abra este libro quizá no creerá qu se trata de uno de
+              divulgación: verá que hay ejercicios y problemas, y encontrara que
+              todo lo que se airma va acompañado de una demostración. No hay duda,
+              de que es un libro que invita al lector a adentrarse en el pensamiento
+              matemático a través de sus conceptos más elementales. <br>
+
+              Ignacio Zalduendo Escribio este libro con el objetivo de enseñarle a
+              su hijo Iñaki todo acerca de lo que considera necesitario que un bachiller
+              conozca acerca de las matemáticas.
+            </p>
+              <ul>
+                <li>Matemáticas</li>
+                <li> <strong>Ignacio Zalduendo</strong> </li>
+                <li>Julio de 2017</li>
+              </ul>
+            </div>
+          </div>
+        </article>
+        <article class="libro-b">
+          <div class="contenedor-libro-b">
+            <a href="#"><h3>Elon Musk el Hombre que podia ver el futuro</h3></a>
+          <figure>
+            <img src="../imagenes/libros/elonMuskElHombreQuePodiaVerElFuturo2.jpg" alt="libro2">
+          </figure>
+          <div class="descripción-b">
+            <p>Es la historia de la tumultuosa ascensión
+              a las cumbres del mundo empresarial de Elon Musk, un hombre que ha
+              revolucionado la industria americana
+              y ha roto todos los límites de la innovación, ganándose
+              inevitablemente unos cuantos enemigos por el camino.
+            </p>
+            <ul>
+              <li>Biografia<  /li>
+              <li><strong>Ashlee Vance</strong></li>
+              <li>fecha de publicación</li>
+            </ul>
+          </div>
+        </div>
+
+        </article>
+      </section>
+
+    <section>
+
+    </section>
+
+    <footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <img src="../imagenes/icon.png" alt="logotipo de la empresa"> <br>
+          <a href="tel:+573045621107"> <strong>3045621107</strong> </a>
+          <a href="mailto:luisfelipe588@hotmail.com"> <strong>luisfelipe588@hotmail.com</strong> </a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+          <label for="nombre"> nombre</label>
+            <input type="text" required id="nombre" placeholder="nombre"/>
+          <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="alguien@example.com" value="" required>
+
+          <div class="sexo">
+            <label for="hombre">
+              <input type="radio" id="hombre" name="sexo" value="hombre"> Hombre
+            </label>
+            <label for="mujer">
+                <input type="radio" id="mujer" name="sexo" value="mujer"> Mujer
+            </label>
+          </div>
+          <div class="intereses">
+            <label for="cotizacion">
+              <input type="checkbox" id="cotizacion" name="intereses" value="cotizacion"> Cotización
+            </label>
+            <label for="sugerencias">
+              <input type="checkbox" id="sugerencias" name="intereses"  value="sugerencias"> Sugerencias
+            </label>
+            <label for="quejas o reclamos">
+              <input type="checkbox" id="quejas o reclamos" name="intereses"  value="quejas"> Quejas o Reclamos
+            </label>
+            <label for="otros">
+              <input type="checkbox" id="otros" name="intereses" value=""> Otros
+            </label>
+          </div>
+        </div>
+          <div class="col2">
+              <label for="comentarios"> Comentarios: </label> <br>
+                <textarea id="comentarios" style="width: 200px; height: 164px;"></textarea>
+                <input type="submit" name="intereses" class=" button submit" >
+          </div>
+        </form>
+      </div>
+    </footer>
+  </body>
+</html>

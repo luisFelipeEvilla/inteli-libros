@@ -1,0 +1,219 @@
+body {
+  font-family: IBM Plex Mono, sans-serif;
+  margin: 0 ;
+}
+
+.header{
+  margin-bottom: 30px;
+  /* position: relative; */
+  background-color:  rgba(8, 4, 20, 0.72);
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+}
+
+.logotipo{
+  display: inline-block;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.logotipo img{
+  height: 40px;
+
+}
+
+.menu {
+  display: flex;
+  height: inherit;
+  align-items: center;
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(180, 199, 221);
+  /* box-shadow:  0 1px 0 white; */
+  border-bottom: 1px solid black;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  padding: 5px 10px;
+  margin-right: 5px;
+  transition: .2s;
+}
+
+.button:active {
+  transform: scale(.9);
+}
+
+nav {
+  font-size: 20px;
+  height: inherit;
+}
+
+nav ul {
+  margin: 0;
+  height: inherit;
+  display: flex;
+}
+
+nav li {
+  height: inherit;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: white ;
+  cursor: pointer;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+}
+
+nav a:hover{
+  box-shadow: inset 0 5px 0  white;
+}
+
+nav li::after{
+  content: " | ";
+  color: white;
+}
+
+nav li:last-child:after{
+  display: none;
+}
+
+
+.portada{
+  margin: 20px;
+}
+
+h1{
+  width: 400px;
+  margin-left: 300px;
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  margin: 15px 0px 5px 0px;
+  display: inline-block;
+}
+
+.nombreLibro{
+  justify-content: center;
+}
+
+.contenedor-libro-a , .contenedor-libro-b {
+  border-radius: 10px;
+  border: solid 1px #0be0ee;
+}
+
+.contenedor-libro-a a, .contenedor-libro-b a {
+  color: black;
+}
+
+.libro-a figure {
+  float: left;
+  margin: 60px 0px;
+  width: 225px;
+}
+
+.descripción-a {
+  display: inline-block;
+  width: 500px;
+}
+
+.contenedor-libro-b{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.libro-b figure {
+  float: left;
+  height: 225px;
+  width: 225px;
+  margin: 20px 0px 10px 10px;
+}
+
+.descripción-b{
+  display: inline-block;
+  width: 500px;
+}
+
+.contenedor{
+  margin: auto;
+  width: 800px;
+}
+
+.footer {
+  background: ;
+  color: #fff;
+  margin-top: 30px;
+  background-color: rgba(8, 4, 20, 0.72);
+}
+
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer .contacto a {
+  color: #fff;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
+}
+
+.contacto{
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.contacto img {
+  display: block;
+  width: 200px;
+  height: 200px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.contacto strong {
+  display: block;
+}
+
+.formulario{
+  display: flex;
+  width: 400px;
+  padding: 50px 10px;
+  justify-content: space-between;
+}
+
+.sexo, .intereses {
+  display: flex;
+  flex-wrap:wrap;
+}
+
+.sexo {
+  margin-top: 10px;
+}
+
+.intereses label {
+  font-size: 12px;
+}
+
+.submit {
+  padding: 7px 16px;
+}
+
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
